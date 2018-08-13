@@ -1,0 +1,16 @@
+{
+  "name": "new-inventor/keyboard-analytics",
+  "description": "Language text analytics for letters frecuensy and genetic algorithm for keyboard layout.",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "roave/security-advisories": "dev-master",
+    "symfony/console": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "KeyboardAnalytics\\": "src/"
+    }
+  }
+}
